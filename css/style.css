@@ -7132,7 +7132,7 @@ section h3.section-subheading {
 }
 
 #speakers .speakers-item .speakers-link .speakers-hover:hover {
-  opacity: 1;
+  opacity: 0.3;
 }
 
 #speakers
