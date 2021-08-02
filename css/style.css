@@ -6573,7 +6573,6 @@ table-bordered > tfoot > tr > td,
 }
 .form-control,
 input {
-  border-width: 2px;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
