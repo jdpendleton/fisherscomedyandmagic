@@ -7020,7 +7020,9 @@ header {
   color: #fff;
   text-shadow: 4px 4px #000;
   background-attachment: scroll;
-  background-image: url("../img/header-bg.jpg");
+  /* background-image: url("../img/header-bg.jpg"); */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url("../img/header-bg.jpg");
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
@@ -7053,7 +7055,7 @@ header .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 200px;
   }
 
